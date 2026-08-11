@@ -4,7 +4,6 @@
 #
 %define		pdir	Config
 %define		pnam	AutoConf
-%include	/usr/lib/rpm/macros.perl
 Summary:	Config::AutoConf - A module to implement some of AutoConf macros in pure Perl
 Summary(pl.UTF-8):	Config::AutoConf - moduł implementujący część makr AutoConfa w czystym Perlu
 Name:		perl-Config-AutoConf
@@ -18,6 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/Config/%{pdir}-%{pnam}-%{version}
 URL:		https://metacpan.org/release/Config-AutoConf/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Capture-Tiny
 %endif
