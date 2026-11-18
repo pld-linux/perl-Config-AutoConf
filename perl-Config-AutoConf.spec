@@ -7,13 +7,13 @@
 Summary:	Config::AutoConf - A module to implement some of AutoConf macros in pure Perl
 Summary(pl.UTF-8):	Config::AutoConf - moduł implementujący część makr AutoConfa w czystym Perlu
 Name:		perl-Config-AutoConf
-Version:	0.317
-Release:	2
+Version:	0.320
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Config/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	29f87fc7803f1725f6daafcf416089ce
+# Source0-md5:	71664b2864232e265179ac29298e0916
 URL:		https://metacpan.org/release/Config-AutoConf/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
